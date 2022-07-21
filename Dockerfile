@@ -7,5 +7,5 @@ RUN wget https://github.com/git-chglog/git-chglog/releases/download/${GITCHK_VER
 
 COPY ./opt /opt
 WORKDIR /src
-ENTRYPOINT ["python3" "/opt/gitlab-api/main.py"]
+ENTRYPOINT ["python3", "/opt/gitlab-api/main.py"]
 
